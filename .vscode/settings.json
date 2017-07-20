@@ -1,0 +1,17 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.linting.pylintArgs": [
+    "--ignored-modules", "cv2,numpy,PyQt5.QtWidgets,PyQt5.QtCore,PyQt5.QtGui",
+    "--disable", "W0512,C0103,W0612,W0603",
+    "--max-line-length", "500"
+    ],
+    
+    "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.DS_Store": true,
+    "**/*.pyc": true,
+    "**/*.rc": true,
+    "**/*.jpg": true
+}
